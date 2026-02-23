@@ -41,10 +41,15 @@ class ScrambleEggConverter extends Page implements HasTable
     }
 
     public static function canAccess(): bool
-{
+    {
+    /** @var \App\Models\User $user */
     $user = auth()->user();
-    return $user?->isRootAdmin() || $user?->hasPermissionTo('egg.export') ?? false;
-}
+
+    if (!$user) return false;
+    if ($user->isRootAdmin()) return true;
+
+    return $user->getAllPermissions()->pluck('name')->contains('egg export');
+    }
 
     public function table(Table $table): Table
     {
