@@ -13,7 +13,7 @@ Adds an admin-only sidebar page with support for exporting eggs as:
 ## Installation
 
 1. Download the plugin `.zip` file
-2. Unzip and remove any nested folders, then rename the folder to `pwa-plugin`
+2. Unzip and remove any nested folders, then rename the folder to `scramble-egg-converter`
 3. Re-zip the folder
 4. In your panel, navigate to **Admin → Plugins**
 5. Click **Import** and install the plugin
