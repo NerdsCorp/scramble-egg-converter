@@ -2,7 +2,7 @@
   "id": "scramble-egg-converter",
   "name": "Scramble Egg Converter",
   "author": "Kristopher Reeves (Dr.Reeves)",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Admin panel page for exporting eggs as Pelican or Pterodactyl format.",
   "category": "plugin",
   "namespace": "ScrambleEggConverter",
