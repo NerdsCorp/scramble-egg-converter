@@ -5,13 +5,10 @@
     "version": "1.0.0",
     "description": "Admin panel page for exporting eggs as Pelican or Pterodactyl format.",
     "category": "plugin",
-    "url": "",
-    "update_url": null,
     "namespace": "ScrambleEggConverter",
     "class": "ScrambleEggConverterPlugin",
     "panels": [
         "admin"
     ],
-    "panel_version": null,
-    "composer_packages": null
+    "update_url": "https://raw.githubusercontent.com/NerdsCorp/scramble-egg-converter/refs/heads/main/update.json",
 }
