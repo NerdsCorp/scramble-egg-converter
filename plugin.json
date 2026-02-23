@@ -1,14 +1,14 @@
 {
-    "id": "scramble-egg-converter",
-    "name": "Scramble Egg Converter",
-    "author": "Kristopher Reeves (Dr.Reeves)",
-    "version": "1.0.0",
-    "description": "Admin panel page for exporting eggs as Pelican or Pterodactyl format.",
-    "category": "plugin",
-    "namespace": "ScrambleEggConverter",
-    "class": "ScrambleEggConverterPlugin",
-    "panels": [
-        "admin"
-    ],
-    "update_url": "https://raw.githubusercontent.com/NerdsCorp/scramble-egg-converter/refs/heads/main/update.json"
+  "id": "scramble-egg-converter",
+  "name": "Scramble Egg Converter",
+  "author": "Kristopher Reeves (Dr.Reeves)",
+  "version": "1.0.0",
+  "description": "Admin panel page for exporting eggs as Pelican or Pterodactyl format.",
+  "category": "plugin",
+  "namespace": "ScrambleEggConverter",
+  "class": "ScrambleEggConverterPlugin",
+  "panels": [
+    "admin"
+  ],
+  "update_url": "https://raw.githubusercontent.com/NerdsCorp/scramble-egg-converter/refs/heads/main/update.json"
 }
