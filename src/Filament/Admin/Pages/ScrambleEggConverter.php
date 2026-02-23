@@ -56,9 +56,6 @@ class ScrambleEggConverter extends Page implements HasTable
             ->defaultSort('name', 'asc')
             ->defaultPaginationPageOption(25)
             ->columns([
-                TextColumn::make('id')
-                    ->label('ID')
-                    ->sortable(query: fn ($query, string $direction) => $query->orderBy('id', $direction)),
                 TextColumn::make('name')
                     ->searchable()
                     ->sortable(query: fn ($query, string $direction) => $query->orderBy('name', $direction))
