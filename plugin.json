@@ -5,6 +5,7 @@
   "version": "1.0.2",
   "description": "Admin panel page for exporting eggs as Pelican or Pterodactyl format.",
   "category": "plugin",
+  "api_version": 1,
   "namespace": "ScrambleEggConverter",
   "class": "ScrambleEggConverterPlugin",
   "panels": [
